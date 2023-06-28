@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+
+    position: fixed;
+}
+
+.leftmenu {
+    padding: 10px;
+
+}
+
+rightmenu {
+    padding: 10px;
+
+}
+
+.imgleft img {
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.front {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+
+.content h2 {
+    background-color: lightgreen;
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+
+.border {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.iconcontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -130px;
+
+
+}
+
+.icon1:hover {
+    transform: scale(1.1);
+}
+
+.icon2:hover {
+    transform: scale(1.1);
+}
+
+.icon3:hover {
+    transform: scale(1.1);
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.icon3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.icon1 img {
+    width: 150px;
+    height: 150px;
+}
+
+.icon2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.icon3 img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.icon1:hover {
+    background-color: azure;
+    padding: 5px;
+    box-shadow: red;
+}
+
+.icon2:hover {
+    background-color: azure;
+    padding: 5px;
+    box-shadow: red;
+}
+
+.icon3:hover {
+    background-color: azure;
+    box-shadow: red;
+    padding: 5px;
+}
